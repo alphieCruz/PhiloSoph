@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
-import sys
+import traceback
 
 st.write('hello web app here')
 
 try:
-  st.write(requests.get('http://179.50.15.34:5000').text)
+  st.write(requests.get('http://localhost:5000').text)
 except:
-  print(sys.exc_info()[2])
+  st.write(traceback.format_exc())
