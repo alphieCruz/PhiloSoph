@@ -17,7 +17,7 @@ from gql.transport.aiohttp import AIOHTTPTransport
 
 # II.i. Utilities
 
-reverseProxyAddress = 'https://1801-191-95-56-117.ngrok.io'
+reverseProxyAddress = 'https://1a44-2803-1800-11c1-652c-6d47-d289-2517-6dc5.ngrok.io'
 
 def authenticateUser(emailAddress, password):
 
